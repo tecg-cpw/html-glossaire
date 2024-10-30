@@ -1,0 +1,16 @@
+export const settings = {
+    swipeCardCheckboxID: 'hideCards',
+    hideAllDefinitionsBtnID: 'hideAllDefinitions',
+    showAllDefinitionsBtnID: 'showAllDefinitions',
+    cardClass: 'dl-item',
+    cardHideDefinitionClass: 'dl-item--hide-definition',
+    cardHideClass: 'dl-item--hide',
+    knownClass: 'dl-item--known',
+    filterFormSelector: 'filter-form',
+    mainNav: '.main-nav',
+    mainNavSelector: '.main-nav ul li',
+    filterID: 'filter',
+    searchID: 'search',
+    hideKnownCardCheckboxID: 'hideKnownDefinition',
+    knownCardCheckboxSelector: '.dl-item dt input[type=checkbox]',
+};

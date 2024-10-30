@@ -1,0 +1,128 @@
+@import url(vars.css);
+@import url(normalize.css);
+@import url(grid.css);
+@import url(form.css);
+@import url(card.css);
+@import url(navigation.css);
+
+html {
+  font-family: "Avenir Next", Avenir, sans-serif;
+  font-weight: 500;
+  background: #fffbef;
+}
+
+body {
+  background: #fffbef;
+  min-height: 100vh;
+  padding: 2rem;
+  -webkit-box-shadow: 0 0.1875rem 0.75rem var(--box-shadow-color);
+  -moz-box-shadow: 0 0.1875rem 0.75rem var(--box-shadow-color);
+  box-shadow: 0 0.1875rem 0.75rem var(--box-shadow-color);
+  max-width: 75rem;
+  margin: 0 auto;
+  color: #014034;
+}
+
+h1,
+.letter,
+h2 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+  color: transparent;
+  text-shadow:
+    1px 1px 3px #014034,
+    0 0 0 black;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+h1 {
+  margin-bottom: 8rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2:first-of-type {
+  margin-top: 5rem;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+@media screen and (min-width: 1400px) {
+  body {
+    padding: 2rem 4rem;
+  }
+}
+
+code {
+  font-family: "Operator Mono", "Inconsolata", "Courier New", monospace;
+  background: #fffbef;
+  color: #014034;
+  border: 1px solid #014034;
+  -webkit-border-radius: 0.375rem;
+  -moz-border-radius: 0.375rem;
+  border-radius: 0.375rem;
+}
+
+mark {
+  background: #f2cd5c;
+  color: #014034;
+}
+
+a {
+  color: #f24c3d;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #014034; /* Change as needed */
+}
+
+pre {
+  background: #fffbef;
+  padding: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0.1875rem 0.1875rem 0.375rem var(--box-shadow-color);
+  -moz-box-shadow: 0.1875rem 0.1875rem 0.375rem var(--box-shadow-color);
+  box-shadow: 0.1875rem 0.1875rem 0.375rem var(--box-shadow-color);
+  overflow: scroll;
+}
+
+code {
+  border: none;
+}
+
+[data-cat]::before {
+  content: attr(data-cat);
+  margin-right: 5px;
+  background: #f2cd5c;
+  color: #014034;
+  position: absolute;
+  right: 1rem;
+  top: 0;
+  padding: 0 0.5rem 0.5rem;
+  font-size: 1.2rem;
+  -webkit-border-radius: 0 0 0.5rem 0.5rem;
+  -moz-border-radius: 0 0 0.5rem 0.5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  -webkit-box-shadow: 0.1875rem 0.1875rem 0.375rem var(--box-shadow-color);
+  -moz-box-shadow: 0.1875rem 0.1875rem 0.375rem var(--box-shadow-color);
+  box-shadow: 0.1875rem 0.1875rem 0.375rem var(--box-shadow-color);
+}

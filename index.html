@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description"
+          content="Un exercice qui nous donne l'opportunité de passer en revue les nouveaux mots de vocabulaire que nous avons découverts dans le cours de Création de pages Web."/>
+    <meta name="keywords" content="Glossaire, Termes techniques du web, Création de pages Web, HTML, HEPL, TECG-CPW"/>
+    <meta name="author" content="Tecg-CPW"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title> Glossaire des termes techniques du web | Création de pages Web </title></head>
+<body><a href="#main-content" class="visuallyhidden">Aller au contenu principal</a>
+<header>
+    <form method="get" id="filter-form">
+        <h1>Glossaire <span class="visuallyhidden">des termes techniques du web</span></h1>
+        <div class="checkboxes-hide">
+            <div class="chekboxes-hide-cards"><input type="checkbox" name="hideCards" id="hideCards"/> <label
+                for="hideCards">Swiper les cartes vers la gauche pour masquer la définition.</label></div>
+            <div class="checkboxes-hide-known"><input type="checkbox" name="hideKnownDefinition"
+                                                      id="hideKnownDefinition"/> <label for="hideKnownDefinition">Masquer
+                les cartes connues</label></div>
+        </div>
+        <button id="hideAllDefinitions">Masquer toutes les définitions</button>
+        <button id="showAllDefinitions">Montrer toutes les définitions</button>
+        <label for="search">Rechercher un terme</label> <input type="search" placeholder="Un terme" name="search"
+                                                               id="search"/>
+        <label for="filter">Filter les termes les catégories</label>
+        <select name="filter" id="filter">
+            <option value="all">Tous</option>
+        </select>
+        <button type="submit">Rechercher</button>
+    </form>
+    <nav class="main-nav"><h2 class="visuallyhidden">Navigation par Lettres</h2>
+        <ul>
+            <li><a href="#a" title="Aller à la section des mots qui commencent par la lettre A">A</a></li>
+            <li><a href="#b" title="Aller à la section des mots qui commencent par la lettre B">B</a></li>
+            <li><a href="#c" title="Aller à la section des mots qui commencent par la lettre C">C</a></li>
+            <li><a href="#d" title="Aller à la section des mots qui commencent par la lettre D">D</a></li>
+            <li><a href="#e" title="Aller à la section des mots qui commencent par la lettre E">E</a></li>
+            <li><a href="#f" title="Aller à la section des mots qui commencent par la lettre F">F</a></li>
+        </ul>
+    </nav>
+</header>
+<main id="main-content">
+    <section id="a">
+        <h2><span class="visuallyhidden">Les mots qui commencent par la lettre </span>A</h2>
+        <dl>
+            <div id="attribut" class="dl-item" data-cat="Géneral">
+                <dt>
+                    <input type="checkbox" name="hide-attribut" id="hide-attribut"/>
+                    <label for="hide-attribut">Attribut</label>
+                </dt>
+                <dd>Les éléments <abbr lang="en" title="hypertext markup language">HTML</abbr> ont des
+                    <dfn>attribut</dfn>s. Ce sont des informations supplémentaires qui configurent les éléments ou
+                    ajustent
+                    leur comportement de différentes manières. Par exemple, l’attribut <code>src</code> pour la balise
+                    <code>&lt;img/&gt;</code> permet de renseigner l'adresse de l'image.
+                </dd>
+            </div>
+            <div class="dl-item" data-cat="Balises">
+                <dt>
+                    <input type="checkbox" name="hide-attribut" id="hide-ancre"/>
+                    <label for="hide-ancre">Ancre (<i lang="en">Anchor</i>)</label>
+                </dt>
+                <dd>L'élément <abbr lang="en" title="hypertext markup language">HTML</abbr> <code>&lt;a&gt;</code>
+                    (pour ancre ou <i lang="en">anchor</i> en anglais), avec son attribut <code>href</code>, crée un
+                    lien hypertexte vers des pages web, des fichiers, des adresses <i lang="en">e-mail</i>, des
+                    emplacements se trouvant dans la même page, ou tout ce qu'une <abbr
+                        title="Uniform Resource Locator">URL</abbr> peut adresser. Le contenu de chaque <a
+                        title="Aller vers la définition d’un élément" href="#element">élément</a> <code>&lt;a&gt;</code>
+                    <em>doit</em> indiquer la destination du lien. Si l'attribut <code>href</code> est présent, appuyer
+                    sur la touche entrée en se concentrant sur l'élément <code>&lt;a&gt;</code> l'activera.
+                </dd>
+            </div>
+        </dl>
+    </section>
+
+    <section id="b">
+        <h2><span class="visuallyhidden">Les mots qui commencent par la lettre </span>B</h2>
+        <dl>
+            <div class="dl-item" id="balise" data-cat="Géneral">
+                <dt>
+                    <input type="checkbox" name="hide-balise" id="hide-balise"/>
+                    <label for="hide-balise">Balise</label>
+                </dt>
+                <dd><dfn>Une balise</dfn> est utilisée pour créer un element. Le nom d’un élément <abbr lang="en"
+                                                                                                        title="hypertext markup language">HTML</abbr>
+                    est le nom utilisé dans des chevrons comme par exemple <code>&lt;p&gt;</code> pour un paragraphe.
+                    Notez que le nom de la balise fermante est précédé par un caractère barre oblique,
+                    <code>&lt;/p&gt;</code>, et que pour les éléments vides la balise de fin n’est pas nécessaire ni
+                    permise. Si les attributs ne sont pas mentionnés, les valeurs par défaut s’appliquent pour chaque
+                    cas.
+                </dd>
+            </div>
+        </dl>
+    </section>
+    <section id="c">
+        <h2><span class="visuallyhidden">Les mots qui commencent par la lettre </span>C</h2>
+        <dl>
+            <div class="dl-item" data-cat="Langages">
+                <dt>
+                    <input type="checkbox" name="hide-css" id="hide-css"/>
+                    <label for="hide-css"><abbr lang="en" title="Cascading Style Sheets">CSS</abbr>
+                        (<i lang="en">Cascading Style Sheets</i>)</label>
+                </dt>
+                <dd>Un langage de style utilisé pour définir la présentation et le style des éléments <abbr lang="en"
+                                                                                                            title="hypertext markup language">HTML</abbr>.
+                </dd>
+            </div>
+        </dl>
+    </section>
+    <section id="d">
+        <h2><span class="visuallyhidden">Les mots qui commencent par la lettre </span>D</h2>
+        <dl>
+            <div class="dl-item" id="div" data-cat="Balises">
+                <dt>
+                    <input type="checkbox" name="hide-div" id="hide-div"/>
+                    <label for="hide-div"><abbr lang="en" title="division">div</abbr></label>
+                </dt>
+                <dd>Représente le conteneur générique du contenu du flux. Il n’a aucun effet sur le contenu ou la mise
+                    en page tant qu’il n’est pas mis en forme d’une manière quelconque à l’aide de <abbr lang="en"
+                                                                                                         title="Cascading Style Sheets">CSS</abbr>.
+                    <pre><code>&lt;div class="warning"&gt; &lt;img src="/media/examples/leopard.jpg" alt="An intimidating leopard."/&gt; &lt;p&gt;Beware of the leopard&lt;/p&gt; &lt;/div&gt;</code></pre>
+                    En tant que conteneur « pur », l'élément <code>&lt;div&gt;</code> ne représente rien en soi. Il est
+                    plutôt utilisé pour regrouper le contenu afin qu'il puisse être facilement stylé à l'aide des
+                    attributs class ou id, pour marquer une section d'un document comme étant écrite dans une langue
+                    différente (à l'aide de l'attribut lang), etc.
+                </dd>
+            </div>
+        </dl>
+    </section>
+    <section id="e">
+        <h2><span class="visuallyhidden">Les mots qui commencent par la lettre </span>E</h2>
+        <dl>
+            <div class="dl-item" id="element" data-cat="Langages">
+                <dt>
+                    <input type="checkbox" name="hide-element" id="hide-element"/>
+                    <label for="hide-element">Élément</label>
+                </dt>
+                <dd>Un <dfn>élément</dfn> est une partie d’une page web. En <abbr lang="en"
+                                                                                  title="Extensible Markup Language">XML</abbr>
+                    et <abbr lang="en" title="hypertext markup language">HTML</abbr>, un élément peut contenir une
+                    donnée, un morceau de texte ou une image, ou même parfois ne rien contenir du tout. Un élément est
+                    typiquement constitué d’une <a href="#balise"
+                                                   title="Aller vers la définition d’une balise">balise</a> ouvrante
+                    ayant quelques <a href="#attribut" title="Aller vers la définition d’un attribut">attributs</a>, du
+                    contenu textuel et d’une <a href="#balise" title="Aller vers la définition d’une balise">balise</a>
+                    fermante.
+                </dd>
+            </div>
+        </dl>
+    </section>
+
+    <section id="f">
+        <h2><span class="visuallyhidden">Les mots qui commencent par la lettre </span>F</h2>
+        <dl>
+            <div class="dl-item" id="formulaire" data-cat="Balises">
+                <dt>
+                    <input type="checkbox" name="hide-form" id="hide-form"/>
+                    <label for="hide-form">Formulaire</label>
+                </dt>
+                <dd>L'<a href="#element" title="Aller vers la définition d’un élément">élément</a> <abbr lang="en"
+                                                                                                         title="hypertext markup language">HTML</abbr>
+                    <code>&lt;form&gt;</code> représente un formulaire, c'est-à-dire une section d'un document qui
+                    contient des contrôles interactifs permettant à un utilisateur de fournir des informations.
+                </dd>
+            </div>
+        </dl>
+    </section>
+</main>
+<footer>
+    <p><small>Page réalisée par l’équipe <abbr
+        title="Techniques Graphiques - Créations de pages web">TECG-CPW</abbr> dans le cadre du cours de HTML du
+        Bachelier
+        en Techniques Graphiques de la <a href="https://www.hepl.be"><abbr
+            title="Haute École de la Province de Liège">HEPL</abbr></a></small></p>
+</footer>
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
+
