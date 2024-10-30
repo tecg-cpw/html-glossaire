@@ -1,0 +1,33 @@
+- Description : Un exercice qui nous donne l'opportunité de passer en revue les nouveaux mots de vocabulaire que nous avons découverts dans le cours de Création de pages Web.
+- mots-clés : Glossaire, Termes techniques du web, Création de pages Web, HTML, HEPL, TECG-CPW
+- titre : Glossaire des termes techniques du web | Création de pages Web
+
+
+<form method="get">
+    <h1>Glossaire <span class="visuallyhidden">des termes techniques du web</span></h1>
+    <div class="checkboxes-hide">
+        <div class="chekboxes-hide-cards"><input type="checkbox" name="hideCards" id="hideCards"/> <label
+            for="hideCards">Swiper les cartes vers la gauche pour masquer la définition.</label></div>
+        <div class="checkboxes-hide-known"><input type="checkbox" name="hideKnownDefinition"
+                                                  id="hideKnownDefinition"/> <label for="hideKnownDefinition">Masquer
+            les cartes connues</label></div>
+    </div>
+    <button id="hideAllDefinitions">Masquer toutes les définitions</button>
+    <button id="showAllDefinitions">Montrer toutes les définitions</button>
+    <label for="search">Rechercher un terme</label> <input type="search" placeholder="Un terme" name="search"
+                                                           id="search"/>
+    <label for="filter">Filter les termes les catégories</label>
+    <select name="filter" id="filter">
+        <option value="all">Tous</option>
+    </select>
+    <button type="submit">Rechercher</button>
+</form>
+
+navigation class=main-nav
+    - Titre : Navigation par Lettres
+    - liste
+        - item : Aller à la section des mots qui commencent par la lettre A": A
+        - item : ...
+
+
+Page réalisée par l’équipe TECG-CPW dans le cadre du cours de HTML du Bachelier en Techniques Graphiques de la HEPL
