@@ -38,9 +38,9 @@ Grâce au formulaire géré par JavaScript, vous pouvez :
 - Chaque carte doit être construite comme suit :
     - Utilisez un *conteneur générique* pour chaque carte qui contiendra le *terme* et sa *définition*. Ce conteneur doit avoir la classe `dl-item` et un [attribut de données (data attribute)](https://developer.mozilla.org/fr/docs/Learn/HTML/Howto/Use_data_attributes) indiquant sa catégorie, par exemple : `data-cat="Général"`.
     - Placez le terme dans un label associé à sa checkbox.
-      ![carte](./img/rendus/carte.jpg)
     - Les termes ne doivent pas inclure de caractères spéciaux comme `)`, `(`, `;`, `<`, car cela pourrait causer des erreurs lors de la recherche.
     - La définition du terme doit être précise et enrichie des balises de phrasé adéquates.
+      ![carte](./img/rendus/carte.jpg)
 
 ## Rendus
 
