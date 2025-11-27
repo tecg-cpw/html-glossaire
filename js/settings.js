@@ -8,7 +8,7 @@ export const settings = {
     knownClass: 'dl-item--known',
     filterFormSelector: 'filter-form',
     mainNav: '.main-nav',
-    mainNavSelector: '.main-nav ul li',
+    mainNavSelector: '.main-nav li',
     filterID: 'filter',
     searchID: 'search',
     hideKnownCardCheckboxID: 'hideKnownDefinition',
